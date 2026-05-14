@@ -95,12 +95,12 @@ Por estas razones, todas las funciones de IA en esta app se implementan usando m
 
 ### App funcionando
 
-![Sentiment Analysis](./img/sentimento.png)
-![NER](./img/entidades.png)
-![Fill-mask](./img/fill-mask.png)
+![Sentiment Analysis](./img/sentimento.PNG)
+![NER](./img/entidades.PNG)
+![Fill-mask](./img/fill-mask.PNG)
 
 ### Código relevante
 
-![app.py - code](./img/code_1.png)
-![app.py - code](./img/code_2.png)
-![app.py - code](./img/code_3.png)
+![app.py - code](./img/code_1.PNG)
+![app.py - code](./img/code_2.PNG)
+![app.py - code](./img/code_3.PNG)
