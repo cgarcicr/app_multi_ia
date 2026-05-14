@@ -1,2 +1,58 @@
-# app_multi_ia
-APP  con una interfaz donde el usuario pueda elegir entre diferentes capacidades de IA y ver los resultados.
+# App Multi-IA (Gradio)
+
+
+
+
+## Descripción
+Aplicación web con Gradio que integra tres capacidades de IA generativa:
+- **Análisis de sentimiento** (HuggingFace Transformers)
+	- Detecta si el texto expresa un sentimiento positivo o negativo.
+	- Ejemplo: `I love this new phone, it works perfectly and the battery lasts all day!`
+- **Extracción de entidades (NER)** (HuggingFace Transformers)
+	- Extrae entidades nombradas como personas, lugares u organizaciones del texto.
+	- Ejemplo: `Barack Obama was born in Hawaii and became the president of the United States.`
+- **Predicción de palabra faltante (Fill-mask)** (HuggingFace Transformers)
+	- Predice la(s) palabra(s) más probable(s) para el lugar donde aparece <mask> en la frase.
+	- **Importante:** Debes escribir exactamente <mask> (con los signos < y >) en la frase. No uses [MASK], MASK ni variantes.
+	- Ejemplo: `The capital of France is <mask>`
+
+**Nota importante:** Los modelos utilizados funcionan óptimamente con textos en inglés. Los resultados en otros idiomas pueden no ser precisos.
+
+El usuario puede elegir la operación en pestañas y ver los resultados de cada IA.
+
+
+## Tecnologías utilizadas
+- Gradio
+- HuggingFace Transformers
+- Python
+
+
+## Nota importante sobre el resumen de textos
+**Nota:** Por limitaciones de la versión de transformers y compatibilidad de modelos, la app no puede realizar resumen ni traducción automática directa. Las funciones disponibles son análisis de sentimiento, clasificación de texto y question answering (QA).
+
+## Instrucciones de instalación y ejecución local
+
+1. Clona el repositorio y entra a la carpeta:
+	```bash
+	git clone <URL_DEL_REPO>
+	cd app_multi_ia
+	```
+2. Instala las dependencias:
+	```bash
+	pip install -r requirements.txt
+	```
+3. Crea un archivo `.env` con tu clave de Gemini:
+	```env
+	GEMINI_API_KEY=TU_CLAVE_AQUI
+	```
+4. Ejecuta la app:
+	```bash
+	python app.py
+	```
+
+## Despliegue
+- [Link a la app en HuggingFace Spaces](<URL_AQUI>)
+
+## Capturas de pantalla
+
+(Agrega aquí capturas de la app funcionando y del código relevante)

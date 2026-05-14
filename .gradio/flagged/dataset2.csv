@@ -1,0 +1,11 @@
+Texto para NER,output,timestamp
+Barack Obama was born in Hawaii and became the president of the United States.,"Barack (I-PER, score: 1.00)
+Obama (I-PER, score: 1.00)
+Hawaii (I-LOC, score: 1.00)
+United (I-LOC, score: 1.00)
+States (I-LOC, score: 1.00)",2026-05-13 21:08:20.069638
+Barack Obama was born in Hawaii and became the president of the United States.,"Barack (I-PER, score: 1.00)
+Obama (I-PER, score: 1.00)
+Hawaii (I-LOC, score: 1.00)
+United (I-LOC, score: 1.00)
+States (I-LOC, score: 1.00)",2026-05-13 21:08:21.783701
