@@ -94,13 +94,21 @@ Por estas razones, todas las funciones de IA en esta app se implementan usando m
 ## Capturas de pantalla y código relevante
 
 ### App funcionando
+Sentimiento
+![Sentiment Analysis](./img/sentimiento.PNG)
 
-![Sentiment Analysis](./img/sentimento.PNG)
+Entidades
 ![NER](./img/entidades.PNG)
+
+Fill-mask
 ![Fill-mask](./img/fill-mask.PNG)
 
 ### Código relevante
-
+app.py
 ![app.py - code](./img/code_1.PNG)
+
+app.py
 ![app.py - code](./img/code_2.PNG)
+
+Librerías
 ![app.py - code](./img/code_3.PNG)
