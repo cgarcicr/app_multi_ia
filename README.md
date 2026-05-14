@@ -1,10 +1,9 @@
-# ---
+---
 title: Multi-IA
 emoji: 🤖
 colorFrom: indigo
 colorTo: blue
 sdk: gradio
-sdk_version: 4.16.0
 app_file: app.py
 pinned: false
 ---
@@ -86,7 +85,8 @@ Por estas razones, todas las funciones de IA en esta app se implementan usando m
 	```
 
 ## Despliegue
-- [Link a la app en HuggingFace Spaces](<URL_AQUI>)
+- [App en HuggingFace Spaces](https://huggingface.co/spaces/camangar/multi-ia)
+- [Repositorio en GitHub](https://github.com/cgarcicr/app_multi_ia)
 
 ## Capturas de pantalla
 
