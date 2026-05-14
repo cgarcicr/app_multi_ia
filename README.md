@@ -21,6 +21,24 @@ Aplicación web con Gradio que integra tres capacidades de IA generativa:
 El usuario puede elegir la operación en pestañas y ver los resultados de cada IA.
 
 
+
+## ¿Por qué no se utiliza Gemini?
+
+A pesar de que se generó una API key válida para Gemini (Google AI), la integración no funcionó correctamente. El error recibido fue:
+
+```
+Error: PERMISSION_DENIED: API key not valid. Please pass a valid API key.
+```
+
+Esto se debió a limitaciones de acceso y posibles restricciones en la activación del servicio para la cuenta utilizada.
+
+Otras razones para no usar Gemini en esta app:
+- **Compatibilidad:** La integración directa con Gemini no es tan sencilla como con HuggingFace Transformers, especialmente en entornos locales o sin dependencias específicas de Google.
+- **Facilidad de despliegue:** HuggingFace Transformers permite ejecutar modelos de IA de manera local y sin depender de servicios externos, facilitando la portabilidad y el uso sin restricciones adicionales.
+
+Por estas razones, todas las funciones de IA en esta app se implementan usando modelos de HuggingFace Transformers, que son de código abierto y ampliamente soportados.
+
+---
 ## Tecnologías utilizadas
 - Gradio
 - HuggingFace Transformers
@@ -34,6 +52,13 @@ El usuario puede elegir la operación en pestañas y ver los resultados de cada 
 
 1. Clona el repositorio y entra a la carpeta:
 	```bash
+	# Checklist de requisitos del proyecto
+
+	- [x] Interfaz web (Gradio)
+	- [x] Modelo de IA integrado (HuggingFace Transformers)
+	- [x] Repositorio GitHub con el código
+	- [ ] Deployment online (HuggingFace Spaces o Streamlit Cloud)
+
 	git clone <URL_DEL_REPO>
 	cd app_multi_ia
 	```
