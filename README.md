@@ -84,6 +84,23 @@ Por estas razones, todas las funciones de IA en esta app se implementan usando m
 	python app.py
 	```
 
+
 ## Despliegue
 - [App en HuggingFace Spaces](https://huggingface.co/spaces/camangar/multi-ia)
 - [Repositorio en GitHub](https://github.com/cgarcicr/app_multi_ia)
+
+---
+
+## Capturas de pantalla y código relevante
+
+### App funcionando
+
+![Sentiment Analysis](./img/sentimento.png)
+![NER](./img/entidades.png)
+![Fill-mask](./img/fill-mask.png)
+
+### Código relevante
+
+![app.py - code](./img/code_1.png)
+![app.py - code](./img/code_2.png)
+![app.py - code](./img/code_3.png)
