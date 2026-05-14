@@ -87,7 +87,3 @@ Por estas razones, todas las funciones de IA en esta app se implementan usando m
 ## Despliegue
 - [App en HuggingFace Spaces](https://huggingface.co/spaces/camangar/multi-ia)
 - [Repositorio en GitHub](https://github.com/cgarcicr/app_multi_ia)
-
-## Capturas de pantalla
-
-(Agrega aquí capturas de la app funcionando y del código relevante)
